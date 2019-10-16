@@ -1,0 +1,285 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>captain's personal stash</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/mantissa.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
+    <script>
+    
+    function inspectStatue() {
+        axios.post('https://awoo.genshiken-itb.org/',)
+            .then((res) => {
+                alert(res.data.message);
+            });
+    }
+
+    </script>
+    <style>
+    @font-face {
+        font-family: font1;
+        src: url('https://haruka-shiroyuki.s3-ap-southeast-1.amazonaws.com/public/assets/font/RAPSCALL.ttf');
+    }
+    body {
+        background-image: url('https://haruka-shiroyuki.s3-ap-southeast-1.amazonaws.com/public/assets/image/rz-bg1.jpg');
+        height: 100vh;
+        width : auto;
+    }
+
+    p, a {
+        font-family: headerFont;
+        font-size: 4vh;
+    }
+
+    h1,h2 {
+        font-family: headerFont;
+	font-size : 8vh;
+    }
+
+    h1,h2,p,a {
+        color : rgb(61, 28, 19);
+        text-align: center;
+    }
+    .button-frame {
+        height:100px;
+        transform: translateX(50%)
+    }
+    #button {
+        vertical-align: middle;
+        position: relative;
+        animation: float 3s ease-in-out infinite
+    }
+
+    @keyframes float {
+        0% {
+            box-shadow: 0 0px 30px -10px rgba(0,0,0,0.0);
+            transform : translate(-50%, 0px);
+        }
+        50% {
+            box-shadow: 0 0px 30px -10px rgba(0,0,0,0.6);
+            transform : translate(-50%, -5px);
+        }
+        100% {
+            box-shadow: 0 0px 30px -10px rgba(0,0,0,0.0);
+            transform : translate(-50%, 0px);
+        }
+    }
+
+    #bottom-text-button {
+	position : sticky;
+	position : -webkit-sticky
+    }
+    </style>
+</head>
+<body>
+    <div class="container pt-4">
+	    <div class=row>
+	    <div class="col-2">
+		    <a href="#bottom-text" id="bottom-text-button">bottom text</a>
+	    </div>
+        <div class="col-8">
+            <br><br>
+            <h1>captain's personal note</h1>
+	    <br>
+	    <br>
+	    <h2>13 september 1719</h2><br>
+            <p>the map which i found last week has only given so much information i want to give up</p>
+            <p>i do not know what to do, but it is infuriating</p>
+            <p>it has been 7 days but i do not know, it says that i need to break something from the message which i found attached to the map</p>
+            <p>i have secured the original message <a href="/node1.txt">here</a></p>
+	    <br>
+	    <br>
+	    <br>
+	    <h2>20 september 1719</h2><br>
+	    <p>once again, i made zero progress on breaking whatever the riddle this map has given to me</p>
+	    <p>i have traveled around the island to find another information and it is all wanting me to go towards this one town</p>
+	    <p>Genshiken</p>
+	    <p>at first i thought on how absurd the name of the town is</p>
+	    <p>but it seems that i do not have many options</p>
+	    <p>either to keep hoping for something that almost impossible, or inspecting this Genshiken town</p>
+	    <br><br><br>
+	    <h2>21 september 1719</h2><br>
+            <p>i was not prepared for this</p>
+	    <p>something is rising and it is not the sails on my ship</p>
+	    <p>it was my curiosity, about this town</p>
+	    <p>so many unique things, so many activities</p>
+	    <p>i tried to ask one of the villagers regarding their activities</p>
+	    <p>"Our king is a man of culture. He is that kind of people who appreciates culture, tradition, and handycrafts."</p>
+	    <p>"wait, i have never seen you before. Are you from another island?", asked the villager</p>
+	    <p>i had no option other than nodding because most king only seek for wealth, gold, or girls</p>
+	    <p>actually i should have not object that considering my status right now</p>
+	    <p>"well, if you have the luck, you have the chance to meet and receive lots of treats from the king himself", he said with wide grin</p>
+	    <p>i thought it was not a bad idea, but not a good idea either. how could i manage to meet someone with such power</p>
+	    <p>the guards would just kick me out in a moment</p>
+	    <br><br><br>
+	    <p>it was quite a long day.</p>
+	    <p>my first day on inspecting this town, i found that there are mostly six activities here</p>
+	    <p>several people like to tell stories, reciting poetry. several like to play their flutes and sing</p>
+	    <p>playing games, theatre perform, murals and canvas painting, and some activities i have never seen before</p>
+	    <p>it was nice. this town looks very lively</p>
+	    <p>but i did not know what attracted me on the first place</p>
+	    <p>but it seemed that i would enjoy my times here</p>
+	    <br><br>
+	    <p>that very night, i went to the east side of the town, looking for an inn</p>
+	    <p>i found a cheap inn called "Wild Cheese Inn and Restaurant"</p>
+	    <p>with only 20 small copper coins, i managed to get myself a small but cozy room on the third floor</p>
+	    <p>i can see almost the entire town from here. the harbor was on my left side, while the palace on the other side</p>
+	    <p>the town hall was pretty lively at night</p>
+	    <p>i had the urge to come down and enjoy the night for a bit more, but my sore muscles were begging me to lay down</p>
+	    <p>well, it could not be helped, i guess</p>
+	    <br>
+	    <p>right after i went to bathroom for a moment, i noticed that the door to my room was opened a bit</p>
+	    <p>oh darn, i was tired of bandits, but well i could not beat them without getting closer</p>
+	    <p>i gently open the door...</p><br><br><br>
+	    <p style="font-family: headerFont;" >BAM!!</p><br><br><br>
+	    <p>there was no one</p>
+	    <p>the window was wide open</p>
+	    <p>i found a piece of paper on my desk</p>
+	    <p>weird enough, my personal belongings were intact</p>
+	    <p>i did not know why, but this piece of paper seemed like an important thing</p>
+	    <br><br>
+	    <p style="font-family:headerFont;" >west side, 27th raegissa avenue<br>black rose bar<br>meet the old loyal customer there</p>
+	    <br><br>
+	    <p>ookay, that was something</p>
+	    <p>seems like i will need to pay for another day here</p>
+	    <br><br><br>
+	    <h2>22 september 1719</h2><br><br>
+	    <p>today i went to the west side of the town in search for this bar</p>
+	    <p>taking another glance and another perspective at the town, this place is still lively as usual</p>
+	    <p>the guy who plays accordion was there, giving performance on the side of the town hall</p>
+	    <p>food stalls were increasing, as i could smell the rich but mixed flavor of every single food on the town hall</p>
+	    <p>probably because it was sunday, more people were gathering on the town hall.</p>
+	    <br><p>"krrrrrrrr"</p><br>
+	    <p>yeah it was my stomach growling</p>
+	    <p>it could not be helped. i have not eaten anything since i woke up</p>
+	    <p>last night incident made me awake longer than usual. i mean it was not everyday that someone infiltrates your room on random inn</p>
+	    <p>i wonder if i was stalked ever since i entered this town. well could be it, could be not.</p>
+	    <br><br>
+	    <p>i approached the closest food stall there, trying to fill my belly with something</p>
+	    <br><p>"One beef rolls please!"</p><br>
+	    <p>"Here you go. You must be new here!"</p><br>
+	    <p>"Ahh yes. i arrived yesterday."</p>
+            <p>the beef rolls were pretty tasty, and worth my 4 small copper coins</p><br>
+	    <p>"By the way, have you gone to the west side of the town? It is a good place for tourists like you"</p><br>
+	    <p>"Well, actually i am looking for someone there. I was told to go to Black Rose Bar, to search the 'Old loyal customer' there."</p>
+	    <br><br><p>soon after i said that, the cook stopped for a moment. i could also feel that my heart stopped for a moment in anticipation</p><br>
+	    <p>"you reeaalllly need some patience if you are looking for him", he replied with low tone</p><br>
+	    <p>what is this? is he some kind of important person or what?</p>
+	    <p>while trying to finish my beef rolls, the guy spoke again</p>
+	    <br><br><p>"i could assure you that he is not going to be there this day. if you are really need to meet him, find someone who his left arm is always open."</p>
+	    <br><p>"As another tips, he once made a game to educate kids about math. People love his game, despite the fact that the game was only the product of his spare time for assignment on his first semester on university."</p>
+	    <br><p>"it is going to be a challenge. i suggest to make a search party.", he closed as another customer came to buy</p>
+	    <p>i was sure that this was not going to be easy, right on that moment</p>
+	    <p>i guess i need to find him first, eh?</p><br><br><br>
+	    <h2>23 september 1719</h2>
+	    <br><br>
+	    <p>Earlier this morning, I woke up with some sore in my back.</p>
+	    <p>I guess cheap inn was cheap. Well, i couldn't complain. 20 copper coins were still worth</p>
+	    <p>I was thinking on searching the entire west side of the town, just to notice that there was a small piece of paper below the door of my room.</p>
+	    <p>"Eh, what is this?</p>
+	    <br><p>What it seemed like a note is... well, a note</p>
+	    <p>It somehow had the same handwriting from the previous note I received in the most mysterious way possible</p>
+	    <p>At this point I don't have any choices rather than to follow this piece of information</p>
+	    <br><br>
+	    <p>East hall, 5th main building</p>
+	    <p>He will only be there from 10am to 11am. Be quick</p>
+	    <br>
+	    <p>...</p>
+	    <p>Soon after that, I ran towards the east hall.</p>
+	    <p>The fifth building, huh?</p>
+	    <p>Well, there were 4 main buildings on the sides of the town hall</p>
+	    <p>The fifth and the sixth on the west side, the seventh and the eight on the east side</p>
+	    <p>I didn't want to take gamble. I hope I could still make it in time</p><br><br><br>
+	    <p>...</p>
+	    <br><br><br>
+	    <p>One of my crews had met the person</p>
+	    <p>The 5th building was pretty huge and long, so it was a great idea to bring search party.</p>
+	    <p>The old loyal customer was pretty lonely, but I could feel on how experienced he was on creating games.</p>
+	    <br><br>
+	    <p>We had a good talk. He was telling several stories about the villagers here, how he made his games, and other small talks.</p>
+	    <p>He brought up something interesting in one point. Something about unsolved mystery on the memorial hall.</p>
+	    <p>Memorial hall? Or memorial statue? I forgot that one bit.</p>
+	    <p>Gosh, that was one very important information.</p>
+	    <p>Good thing that I'd going to meet him again tomorrow</p>
+	    <p>He has something to give me tomorrow, in the field full of love at 9AM</p>
+	    <p>He told me to bring my crews, but actually he just wanted some who do not mind meeting this "rusty old man" in their busy time.</p>
+	    <br><p>Old man likes to tell stories, eh?</p>
+	    <p>But I was afraid if he would not remember the time.</p>
+	    <br><br><p>...</p>
+	    <br><br><p>On my first days arriving here, I remembered that I brought my crews for a travel around the town.</p>
+	    <p>I knew that several of my crews like to draw, to illustrate, much like some villagers here.</p>
+	    <p>Yeah, as I didn't want to hold my boys' excitement, I let them be. It was the first day also.</p>
+	    <p>...</p>
+	    <p>"Your crews?", asked someone from behind. My heart almost excaped my throat as I was shocked for a moment. God damn it, why what's with these people.</p>
+	    <p>I nodded silently as watching one of my crew unleashed whatever he had in mind. He had drawn a cat with such a manly face. It brought grin to my face.</p>
+	    <p>"Well, I think I'm going to pin that up on the memorial statue.", he said.</p>
+	    <br><p>Wait... what?</p>
+	    <p>"Yeah, i'll going to take that piece to memorial statue over the hall of fame. You can visit us anytime on the west town center."</p>
+	    <p>As i nodded, my crews had been laughing over the absurdity of the drawing. Well, creativity is limiteless, eh?</p>
+	    <p>Wait...</p>
+	    <br><br>
+	    <p>"WHY I DIDN'T THINK OF THAT??!!", as I shouted when realized that small piece of the puzzle.</p>
+	    <p>As I know where I should go, things started to get more jumbled...</p>
+	    <p>...</p>
+	    <br><br><br>
+	    <h2>24 september 1719</h2>
+	    <br><br>
+	    <p>I started this morning with even more questions left unanswered in my head.<br><br>
+Yesterday was hectic. We managed to find the memorial statue with the unsolved mystery attached to it. It turned out to be some morse codes which leads us to another riddle. It seems that the riddlemaster didn't want the riddle to just be solved by some random passerby.
+<br><br>
+We were requested to gather on the "field full of love" by 9am. He said he was going to give us something in return of a beer I bought him yesterday. Old people really like to return a favor, eh?
+<br><br>
+...<br><br>
+
+We went to the southern side of the town to restock our supplies. I told my crews that we're probably not going to leave this town soon. There is something interesting going on here.
+<br><br>
+Upon hearing that, several cheered, several groaned, most of them being silent as usual. My assistant seemed okay with my decision, so I won't comment much. Maybe they would discover something interesting for them here, sooner or later. I recalled that on the first few days I arrived here, things almost became messy. Well, probably because I am the captain. Important people is important, heh.
+<br><br>
+...</p>
+    <p>We met the old loyal customer on the said "field full of love". Thank god, he didn't forget about this. We were dead waiting for him to come. I didn't really feel something lovely from that field, or park. It was nice, though. The scenery was nice, it was clean, and there wasn't much people there. A pretty peaceful place to meet someone. Probably that's why it's called "field full of love".</p><br>
+    <p>Turns out, he always goes to this field every 9am, in remnants of his wife. The old loyal customer gave us a map of Genshiken town. It's different from the map we got the first time. We kept the map in the <a href="https://haruka-shiroyuki.s3-ap-southeast-1.amazonaws.com/public/assets/image/genshiken-map.png">stash</a> to keep it safe.</p>
+    <br>
+    <p>He told as about the stories of Genshiken, about how he was a war veteran. We were interested in one particular story. The story about the statue of a woman in the memorial site. The story about a statue that changes it's position every several hours. The story about a statue that also faces different direction with each pose. The story about a statue which itself is telling a story.</p><br>
+    <p>We were so curious that we decided to observe the statue. It's changing over time, so I told several of my crews to periodically observe the statue.</p><br><br>    
+    <div class="button-frame">
+        <img id="button" src="https://haruka-shiroyuki.s3-ap-southeast-1.amazonaws.com/public/assets/image/burnt-paper-button.png" alt="observe" onclick="inspectStatue()">
+    </div><br><br>
+    <p>The story seemed trying to tell a message, but we had no idea where to start. The story tells different story depending on where we start. A tricky one.</p><br>
+    <p>We were told to be cautious on choosing our way. It wasn't without reason, because every choice can only be attempted once per day. We definitely don't want to waste our time here.</p><br><br>
+    <p>A moment to think...</p><br><br>
+    <p>...</p>
+    <h2>25 September 1719</h2><br><br>
+    <p>We have observed the statue for more than 12 hours. If my assumption is right, we have identified all the poses and the directions, together with the notes. We were pretty anxious that we can only attempt this riddle once a day. I don't know where to start, or where to go. It really has something to do with the map the old loyal customer had gave us.</p><br>
+
+    <p>The atmosphere of the town somehow has changed. A town hall once filled with joys and laughter now only filled with intense feelling and somewhat eerie aura. Something big that changed upon solving the cipher riddle. I wasn't sure if there is any corelation between them, but this situation made my crew feel uneasy. Some urged us to further investigate.</p><br>
+    <br><br><p>...</p>
+    <br><br>
+    <p>We visited the memorial statue once again, to see if there is really something different. Upon arriving, something shiny captured our eyes.</p><br>
+    <p>A mirror</p>
+    <br><p>"Hey, that wasn't there before.", urged my assistant.</p>
+    <br><p>I didn't put that much attention towards the statue either. "Why there is a mirror in such a place though?", I mumbled to myself.</p><br>
+    <p>The mirror looked like new, which is something that really made us wonder. Why? What the heck happened in just a night?</p>
+    <br>
+    <p>Out of curiosity, my crew approached the mirror and realized that it wasn't reflecting in the normal way. One tried to redirect some sunlights towards it.</p>
+    <br><p>"Woah..."</p><br>
+    <p>.....what?</p><br>
+    <br><p>"Yo, look at this! I can see my face here!"</p><br>
+    <p>...</p>
+    <br><p>Well, i don't want to comment...</p>
+    
+<div id="bottom-text"></div>
+	<div class="col-2">
+		
+	</div>
+	</div>
+        
+    </div>
+    
+</body>
+</html
+
