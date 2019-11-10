@@ -18,10 +18,20 @@ Simply look into your keyboard, ahh... yes... you're a sailor, what even is a ke
 Answer : F
 
 ## Stage 3
+A morse code had been written on one of y'all's illustration back in Day 2.
+It leads into a .txt file that has ciphered message in it.
+Take the each first letter of every word, form a string, use the keyword "GAME", and decipher using "Playfair Cipher".
+Quickly you'd find "lustrationisthewaytotellmessages"
+Complete the first 2 letter, and
 
-Answer :
+Answer : illustration is the way to tell messages
 
 ## Stage 4
+After meeting with the old loyal customer, he told you to go to see "The Statue"
+
+...
+
+
 That statue is moving, and tries to tell a story?
 
 Answer : West South East North
