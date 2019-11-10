@@ -1,0 +1,160 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>captain's personal stash</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/mantissa.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
+    <script>
+    
+    function inspectStatue() {
+        axios.post('https://awoo.genshiken-itb.org/',)
+            .then((res) => {
+                alert(res.data.message);
+            });
+    }
+
+    let arr = [];
+    function b(w) {
+        arr.push(w);
+        if (w.match(/^r/i)) {
+            axios.post('https://awoo.genshiken-itb.org/rephel', { arr })
+            .then((res) => {
+                alert(res.data);
+                arr.length = 0;
+            });
+            
+        }
+    }
+
+    </script>
+    <style>
+    @font-face {
+        font-family: font1;
+        src: url('https://haruka-shiroyuki.s3-ap-southeast-1.amazonaws.com/public/assets/font/RAPSCALL.ttf');
+    }
+    body {
+        background-image: url('https://haruka-shiroyuki.s3-ap-southeast-1.amazonaws.com/public/assets/image/rz-bg1.jpg');
+        height: 100vh;
+        width : auto;
+    }
+
+    p, a {
+        font-family: headerFont;
+        font-size: 4vh;
+    }
+
+    h1,h2 {
+        font-family: headerFont;
+	font-size : 8vh;
+    }
+
+    h1,h2,p,a {
+        color : rgb(61, 28, 19);
+        text-align: center;
+    }
+    .button-frame {
+        height:100px;
+        transform: translateX(50%)
+    }
+    #button {
+        vertical-align: middle;
+        position: relative;
+        animation: float 3s ease-in-out infinite
+    }
+
+    @keyframes float {
+        0% {
+            box-shadow: 0 0px 30px -10px rgba(0,0,0,0.0);
+            transform : translate(-50%, 0px);
+        }
+        50% {
+            box-shadow: 0 0px 30px -10px rgba(0,0,0,0.6);
+            transform : translate(-50%, -5px);
+        }
+        100% {
+            box-shadow: 0 0px 30px -10px rgba(0,0,0,0.0);
+            transform : translate(-50%, 0px);
+        }
+    }
+
+    #bottom-text-button {
+	position : sticky;
+	position : -webkit-sticky
+    }
+    </style>
+</head>
+<body>
+    <div class="container pt-4">
+	    <div class=row>
+            <div class="col-2"></div>
+            <div class="col-8">
+                <br><br><br><br><br><br><br><br><br><br>
+                <h1 onclick="b('s')">salvation</h1>
+                <h1 onclick="b('ra')">revelation</h1>
+                <h1 onclick="b('ae')">ascension</h1>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                <h1><span onclick="b('thc')">thee has't cometh </span><span onclick="b('i')">this far in </span><span onclick="b('sw')">searcheth of mine own </span><span onclick="b('he')"> belov'd treasure</span></h1> 
+                    <br>
+                    <br>
+                    <br>
+                <h1><span onclick="b('b')">but has't thy </span><span onclick="b('eg')"> ev'r consid'r taking</span><span onclick="b('gds')"> a behold of thy surroundings?</span></h1>
+                    <br>
+                    <br>
+                    <br>
+                <h1><span onclick="b('ne')">t's not</span><span onclick="b('lr')"> an colours</span></h1>
+                    <br>
+                    <br>
+                    <br>
+                    <h1><span onclick="b('la')">'twill</span><span onclick="b('nes')"> nev'r beest a</span><span onclick="b('xi')">n colours</span></h1>
+                    <br>
+                    <br>
+                    <br>
+                    <h1><span onclick="b('wos')">we hath </span><span onclick="b('mew')">asked f'r proof</span></h1>
+                    <br>
+                    <br>
+                    <br>
+                    <h1><span onclick="b('ssh')">shalt thee </span><span onclick="b('cto')">cometh with memento?</span></h1>
+                    <br>
+                    <br>
+                    <br>
+                    <h1><span onclick="b('rlt')">'r shalt thee leaveth,</span><span onclick="b('byur')"> carrying immutable regreteth</span></h1>
+                    <br>
+                    <br>
+                    <br>
+                    <h1><span onclick="b('als')">alloweth us </span><span onclick="b('eula')">encapsulate thy existence</span></h1>
+                    <br>
+                    <br>
+                    <br>
+                    <h1><span onclick="b('bayk')">bef're we inh'rit</span><span onclick="b('bsew')"> thy sentient being</span></h1>
+                <br>
+                <br>
+                <br>
+            <br>
+        <p>dd724, dd459, null*pointer</p>
+    <div id="bottom-text"></div>
+        <div class="col-2">
+        </div>
+            </div>
+            <div class="col-2">
+            </div>
+        
+    </div>
+    
+</body>
+</html
+
+
