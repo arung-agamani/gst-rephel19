@@ -2,6 +2,8 @@
 
 - Hosted at awoo.genshiken-itb.org
 
+Old /answer path with textbox input has been scrapped from the original website, but it's still accessible by doing manual POST request to either / or /answer, and the server is still up and running.
+
 ## What's this?
 This repository contains the source code used for Rephel riddle in Genshiken Staff Training 2019
 
